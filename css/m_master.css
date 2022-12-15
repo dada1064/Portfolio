@@ -1,0 +1,532 @@
+/* --- 공통 CSS --- */
+
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1rem; 
+    background-color: #000000;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* --- 컨텐츠 공통 CSS --- */
+
+.cont_line{
+    width: 80%;
+    height: auto;
+    border: 0px solid white;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* --- footer CSS --- */
+
+.footer{
+    width: 100%;
+    height: 180px;
+}
+
+.footer_line{
+    width: 80%;
+    height: 130px;
+    border: 0px solid red;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.logo{
+    width: 53px;
+    height: 52px;
+    position: absolute;
+    top: 30%;
+}
+
+.footer_text{
+    color: #ffffff;
+    border: 0px solid red;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    text-align: right;
+}
+
+.footer_text > p{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Normal;
+    font-size: 8px;
+    color: #ffffff;
+}
+
+
+
+/* --- m_index CSS --- */
+
+.m_index{
+    background-image: url('../img/m_index_bg.png');
+}
+
+/** --- m_index_top CSS --- **/
+
+.m_index_tit{
+    width: 333px;
+    height: 162px;
+    margin-top: 100px;
+}
+
+.contects{
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 140px;
+}
+
+.contects > h1{
+    color: #ffffff;
+    font-family: degular, sans-serif;
+    font-weight: Bold;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.contects > h2{
+    color: #ffffff;
+    font-family: degular, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+
+/*** --- 네비게이션 CSS --- ***/
+
+.menubar{
+    width: 140px;
+    height: auto;
+    border: 0px solid red;
+    z-index: 10;
+    padding-left: 190px;
+    padding-top: 130px;
+}
+
+.menu{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 0px solid gray;
+    text-align: right;
+}
+
+.menu > a{
+    color: white;
+    font-family: degular, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu > a:hover{
+    color: #FA0073;
+    font-weight: 700;
+}
+
+.menu01 > a {
+    color: #FA0073;
+    font-weight: 700;
+}
+
+
+/** --- m_index_cont1 CSS --- **/
+
+.m_index_cont1 > p{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Normal;
+    font-size: 11px;
+    color: #ffffff;
+    padding-top: 30px;
+    line-height: 1.7142857142857142;
+}
+
+.m_index_cont1_tit2{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.m_index_cont1_pro{
+    width: 333px;
+    height: auto;
+}
+
+.m_index_cont1_skill{
+    width: auto;
+    height: 130px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+
+/* --- m_sub01 CSS --- */
+
+.m_sub01{
+    background-image: url('../img/m_sub_bg.png');
+}
+
+/** --- m_sub01_top CSS --- **/
+
+.m_sub_tit{
+    width: 260px;
+    height: auto;
+    margin-top: 100px;
+}
+
+
+.sub_text{
+    margin-top: 20px;
+}
+
+.sub_text > p{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Normal;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    line-height: 1.5;
+}
+
+
+/** --- m_sub01_cont01 CSS --- **/
+
+.m_sub01_cont01{
+
+}
+
+.m_sub01_cont01_tit{
+    width: 220px;
+    height: auto;
+    margin-top: 300px;
+}
+
+.m_sub01_cont01_work{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.m_sub01_cont01_text_box{
+    text-align: center;
+    padding-top: 20px;
+    border: 0px solid red;
+}
+
+.m_sub01_cont01_text_box > h1{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+}
+
+.m_sub01_cont01_text_box > p{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Normal;
+    font-size: 12px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+    line-height: 1.6666666666666667;
+}
+
+
+/** --- m_sub01_cont02 CSS --- **/
+
+.m_sub01_cont02{
+
+}
+
+.m_sub01_cont02_tit{
+    width: 220px;
+    height: auto;
+    margin-top: 150px;
+}
+
+.m_sub01_cont02_work{
+    width: 330px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.m_sub01_cont02_text_box{
+    text-align: center;
+    padding-top: 50px;
+    border: 0px solid red;
+    padding-bottom: 100px;
+}
+
+.m_sub01_cont02_text_box > h1{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+}
+
+.m_sub01_cont02_text_box > p{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Normal;
+    font-size: 12px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+    line-height: 1.6666666666666667;
+}
+
+
+/* --- m_sub02 CSS --- */
+
+.m_sub02{
+    background-image: url('../img/m_sub_bg.png');
+}
+
+/** --- m_sub02_top CSS --- **/
+
+.m_sub_tit{
+    width: 260px;
+    height: auto;
+    margin-top: 100px;
+}
+
+
+.sub_text{
+    margin-top: 20px;
+}
+
+.sub_text > p{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Normal;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    line-height: 1.5;
+}
+
+
+/** --- m_sub02_cont01 CSS --- **/
+
+.m_sub02_cont01{
+
+}
+
+.m_sub02_cont01_tit{
+    width: 220px;
+    height: auto;
+    margin-top: 300px;
+}
+
+.m_sub02_cont01_work{
+    width: 330px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.m_sub02_cont01_text_box{
+    text-align: center;
+    padding-top: 80px;
+    border: 0px solid red;
+}
+
+.m_sub02_cont01_text_box > h1{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+}
+
+.m_sub02_cont01_text_box > p{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Normal;
+    font-size: 12px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+    line-height: 1.6666666666666667;
+}
+
+.m_sub02_cont01_work2{
+    width: 330px;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+/* --- m_sub03 CSS --- */
+
+.m_sub03{
+    background-image: url('../img/m_sub_bg.png');
+}
+
+/** --- m_sub03_top CSS --- **/
+
+.m_sub_tit03{
+    width: 300px;
+    height: auto;
+    margin-top: 100px;
+}
+
+
+.sub_text{
+    margin-top: 20px;
+}
+
+.sub_text > p{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Normal;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    line-height: 1.5;
+}
+
+
+/** --- m_sub03_cont01 CSS --- **/
+
+.m_sub03_cont01{
+    margin: 0 auto;
+}
+
+.m_sub03_cont01_tit{
+    width: 200px;
+    height: auto;
+    margin-top: 300px;
+}
+
+.m_sub03_cont01_work{
+    width: 330px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.m_sub03_cont01_text_box{
+    text-align: center;
+    padding-top: 60px;
+    border: 0px solid red;
+}
+
+.m_sub03_cont01_text_box > h1{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+}
+
+.m_sub03_cont01_text_box > p{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Normal;
+    font-size: 12px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+    line-height: 1.6666666666666667;
+}
+
+.m_sub03_cont01_work2{
+    width: 330px;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+
+/* --- m_sub04 CSS --- */
+
+.m_sub04{
+    background-image: url('../img/m_sub_bg.png');
+}
+
+/** --- m_sub04_top CSS --- **/
+
+.m_sub_tit04{
+    width: 300px;
+    height: auto;
+    margin-top: 100px;
+}
+
+
+.sub_text{
+    margin-top: 20px;
+}
+
+.sub_text > p{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Normal;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    line-height: 1.5;
+}
+
+
+/** --- m_sub04_cont01 CSS --- **/
+
+.m_sub04_cont01{
+    margin: 0 auto;
+}
+
+.m_sub04_cont01_tit{
+    width: 200px;
+    height: auto;
+    margin-top: 300px;
+}
+
+.m_sub04_cont01_work{
+    margin: 0 auto;
+    width: 330px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.m_sub04_cont01_text_box{
+    text-align: center;
+    padding-top: 60px;
+    border: 0px solid red;
+}
+
+.m_sub04_cont01_text_box > h1{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+}
+
+.m_sub04_cont01_text_box > p{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Normal;
+    font-size: 12px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+    line-height: 1.6666666666666667;
+}
+
+.m_sub04_cont01_work2{
+    width: 330px;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}

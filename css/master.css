@@ -1,0 +1,1011 @@
+/* --- 공통 CSS --- */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.animate__animated.animate__pulse {
+    --animate-duration: 10s;
+    animation-iteration-count: infinite;
+}
+  
+  :root {
+    --animate-duration: 400ms;
+    --animate-delay: 0.9s;
+}
+
+
+
+/* --- 네비게이션 CSS --- */
+
+.menubar{
+    width: 130px;
+    height: auto;
+    border: 0px solid red;
+    position: fixed;
+    right: 0;
+    top: 35%;
+    z-index: 1;
+}
+
+.menu{
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 0px solid gray;
+    text-align: right;
+}
+
+.menu > a{
+    color: white;
+    font-family: degular, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu > a:hover{
+    color: #FA0073;
+    font-weight: 700;
+}
+
+.menu01 > a {
+    color: #FA0073;
+    font-weight: 700;
+}
+
+
+
+/* --- 컨텐츠 공통 CSS --- */
+
+.cont_line{
+    width: 80%;
+    height: 900px;
+    border: 0px solid white;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+/* --- footer CSS --- */
+
+.footer{
+    width: 100%;
+    height: 180px;
+}
+
+.footer_line{
+    width: 80%;
+    height: 130px;
+    border: 0px solid red;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.logo{
+    width: 73px;
+    height: 72px;
+    position: absolute;
+    top: 20%;
+}
+
+.footer_text{
+    color: #ffffff;
+    border: 0px solid red;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    text-align: right;
+}
+
+.footer_text > p{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Normal;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+
+
+/* --- index CSS --- */
+/** --- index_top CSS --- **/
+
+.index_top{
+    width: 100%;
+    height: 1080px;
+    border: 0px solid blue;
+    background-image: url('../img/topbg.png');
+    background-size: cover;
+}
+
+.index01_bg{
+    width: 100%;
+    height: 1080px;
+    object-fit: cover;
+    position: absolute;
+    border: 0px solid blue;
+}
+
+.index01_tit{
+    border: 0px solid red;
+    position: absolute;
+    left: 0;
+    top: 100px;
+}
+
+.contects{
+    width: 100%;
+    height: 130px;
+    border: 0px solid red;
+    text-align: right;
+    position: absolute;
+    bottom: 20%;
+}
+
+.contects > h1{
+    color: #ffffff;
+    font-family: degular, sans-serif;
+    font-weight: Bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.contects > h2{
+    color: #ffffff;
+    font-family: degular, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+
+
+/** --- index_mid CSS --- **/
+
+.index_mid{
+    width: 100%;
+    height: auto;
+    border: 0px solid blue;
+    background-size: cover; 
+    background-position: center;
+
+}
+
+.index02_tit{
+    width: 500px;
+    border: 0px solid red;
+    top: 15%;
+    position: absolute;
+}
+
+.index02_img{
+    position: absolute;
+    right: 0;
+    top: 25%;
+    border: 0px solid red;
+}
+
+.index02_text{
+    top: 55%;
+    position: absolute;
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    line-height: 2.0714285714285716;
+
+}
+
+
+
+/** --- index_bottom CSS --- **/
+
+.index_bottom{
+    width: 100%;
+    height: auto;
+    border: 0px solid blue;
+    background-image: url('../img/index03_bg.png');
+    background-size: cover; 
+    background-position: center;
+}
+
+.index03_tit{
+    border: 0px solid red;
+    position: absolute;
+}
+
+.index03_img{
+    border: 0px solid red;
+    position: absolute;
+    top: 25%;
+}
+
+.index03_text{
+    width: 570px;
+    height: 64%;
+    position: absolute;
+    color: #ffffff;
+    top: 25%;
+    right: 0;
+    border: 0px solid forestgreen;
+}
+
+.textbox1{
+    border: 0px solid red;
+    position: absolute;
+    top:0;
+    left:0;
+    right:50%;
+    bottom:50%;
+}
+
+.textbox2{
+    border: 0px solid red;
+    position: absolute;
+    top:0;
+    left:50%;
+    right:0;
+    bottom:50%;
+}
+
+.textbox3{
+    border: 0px solid red;
+    position:absolute;
+    top:50%;
+    left:0;
+    right:50%;
+    bottom:0;
+}
+
+.textbox4{
+    border: 0px solid red;
+    position:absolute;
+    top:50%;
+    left:50%;
+    right:0;
+    bottom:0;
+}
+
+.index03_textbox > h1{
+    font-family: degular, sans-serif;
+    font-weight: Bold;
+    font-size: 30px;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.index03_textbox > p{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    line-height: 1.3;
+    padding-bottom: 8px;
+}
+
+
+
+/* --- Sub01 CSS --- */
+/** --- Sub01_top CSS ---**/
+
+.sub01_top{
+    width: 100%;
+    height: 1080px;
+    border: 0px solid red;
+    position: relative;
+    background-image: url('../img/topbg.png');
+    background-size: cover;
+}
+
+.sub_bg{
+    width: 100%;
+    height: 1200px;
+    object-fit: cover;
+    position: absolute;
+    border: 0px solid blue;
+    bottom: 5%;
+}
+
+.sub01_tit{
+    position: absolute;   
+    right: 0; 
+    top: 15%;
+}
+
+.sub01_top_text{
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 58%;
+    text-align: right;
+}
+
+.sub01_top_text > p{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Normal;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    line-height: 2;
+}
+
+
+
+/** --- Sub01_cont01 CSS ---**/
+
+.sub01_cont01{
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    position: relative;
+}
+
+.sub01_cont01_tit{
+    position: absolute;
+    top: 8%;
+    border: 0px solid blue;
+}
+
+.sub01_cont01_img{
+    bottom: 8%;
+    position: absolute;
+    opacity: 50%;
+    border: 0px solid blue;
+}
+
+.color_box{
+    width: 180px;
+    height: auto;
+    position: absolute;
+    display: flex;
+    border: 0px solid blue;
+    bottom: 15%;
+    left: 10px;
+    justify-content: space-between;
+}
+
+.color_box > li > img{
+    width: 40px;
+    height: 40px;
+    border: 0px solid yellow;
+}
+
+.cont01_img{
+    position: absolute;
+    right: -50px;
+    bottom: 10%;
+    border: 0px solid blue;
+}
+
+
+
+/** --- Sub01_cont02 CSS ---**/
+
+.sub01_cont02{
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    position: relative;
+}
+
+.sub01_cont02_bg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    border: 0px solid blue;
+}
+
+.cont02_img{
+    position: absolute;
+    left: 0;
+    top: 10%;
+    border: 0px solid red;
+}
+
+.cont02_text{
+    width: 35%;
+    height: auto;
+    color: #ffffff;
+    border: 0px solid blue;
+    position: absolute;
+    right: 30px;
+    top: 30%;
+    text-align: justify;
+}
+
+.cont02_text > h1 {
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Bold;
+    font-size: 26px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+    line-height: 1.4;
+}
+
+.cont02_text > p {
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+    line-height: 2;
+}
+
+
+
+/** --- Sub01_cont03 CSS ---**/
+
+.sub01_cont03{
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    position: relative;
+}
+
+.sub01_cont03_tit{
+    position: absolute;
+    right: 0;
+    top: 13%;
+    border: 0px solid blue;
+}
+
+.sub01_cont03_img{
+    right: 0;
+    bottom: 13%;
+    position: absolute;
+    opacity: 50%;
+    border: 0px solid blue;
+}
+
+.color_box_cont03{
+    width: 135px;
+    height: auto;
+    position: absolute;
+    display: flex;
+    border: 0px solid blue;
+    bottom: 15%;
+    right: 5%;
+    justify-content: space-between;
+}
+
+.color_box_cont03 > li > img{
+    width: 40px;
+    height: 40px;
+    border: 0px solid yellow;
+}
+
+.cont03_img{
+    position: absolute;
+    left: 20px;
+    bottom: 8%;
+    border: 0px solid blue;
+}
+
+
+
+/** --- Sub01_cont04 CSS ---**/
+
+.sub01_cont04{
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    position: relative;
+}
+
+.sub01_cont04_bg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    border: 0px solid blue;
+}
+
+.cont04_img{
+    position: absolute;
+    right: 0;
+    top: 10%;
+    border: 0px solid red;
+}
+
+.cont04_text{
+    width: 35%;
+    height: auto;
+    color: #ffffff;
+    border: 0px solid blue;
+    position: absolute;
+    left: 30px;
+    top: 30%;
+    text-align: justify;
+}
+
+.cont04_text > h1 {
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Bold;
+    font-size: 26px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+    line-height: 1.4;
+}
+
+.cont04_text > p {
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+    line-height: 2;
+}
+
+
+
+/* --- Sub02 CSS --- */
+/** --- Sub02_top CSS ---**/
+
+.sub02_top{
+    width: 100%;
+    height: 1080px;
+    border: 0px solid red;
+    position: relative;
+    background-image: url('../img/topbg.png');
+    background-size: cover;
+}
+
+.sub_bg{
+    width: 100%;
+    height: 1200px;
+    object-fit: cover;
+    position: absolute;
+    border: 0px solid blue;
+    bottom: 5%;
+}
+
+.sub02_tit{
+    position: absolute;   
+    right: 0; 
+    top: 15%;
+}
+
+.sub02_top_text{
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 58%;
+    text-align: right;
+}
+
+.sub02_top_text > p{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Normal;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    line-height: 2;
+}
+
+
+
+/** --- Sub02_cont01 CSS ---**/
+
+.sub02_cont01{
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    position: relative;
+}
+
+.sub02_cont01_tit{
+    position: absolute;
+    top: 8%;
+    border: 0px solid blue;
+}
+
+.sub02_cont01_img{
+    top: 30%;
+    position: absolute;
+    opacity: 50%;
+    border: 0px solid blue;
+}
+
+.sub02_cont01_work{
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    border: 0px solid blue;
+}
+
+.sub02_cont01_text{
+    width: 35%;
+    height: auto;
+    color: #ffffff;
+    border: 0px solid blue;
+    position: absolute;
+    left: 10px;
+    text-align: justify;
+    bottom: 27%;
+}
+
+.sub02_cont01_text > h1 {
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Bold;
+    font-size: 26px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+    line-height: 1.4;
+}
+
+.sub02_cont01_text > p {
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+    line-height: 2;
+}
+
+
+
+/** --- Sub02_cont02 CSS ---**/
+
+.sub02_cont02{
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    position: relative;
+}
+
+.sub02_cont02_bg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    border: 0px solid blue;
+}
+
+.sub02_cont02_imgbox{
+    border: 0px solid blue;
+    width: 65%;
+    height: 80%;
+    background-image: url('../img/sub02_cont02_img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+
+
+
+/* --- Sub03 CSS --- */
+/** --- Sub03_top CSS ---**/
+
+.sub03_top{
+    width: 100%;
+    height: 1080px;
+    border: 0px solid red;
+    position: relative;
+    background-image: url('../img/topbg.png');
+    background-size: cover;
+}
+    
+.sub_bg{
+    width: 100%;
+    height: 1200px;
+    object-fit: cover;
+    position: absolute;
+    border: 0px solid blue;
+    bottom: 5%;
+}
+
+.sub03_tit{
+    position: absolute;   
+    right: 0; 
+    top: 15%;
+}
+
+.sub03_top_text{
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 58%;
+    text-align: right;
+}
+
+.sub03_top_text > p{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Normal;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    line-height: 2;
+}
+
+
+
+/** --- Sub03_cont01 CSS ---**/
+
+.sub03_cont01{
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    position: relative;
+}
+
+.sub03_cont01_tit{
+    position: absolute;
+    top: 8%;
+    border: 0px solid blue;
+}
+
+.sub03_cont01_img{
+    top: 40%;
+    position: absolute;
+    opacity: 50%;
+    border: 0px solid blue;
+}
+
+.sub03_cont01_work{
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    border: 0px solid blue;
+}
+
+.sub03_cont01_text{
+    width: 35%;
+    height: auto;
+    color: #ffffff;
+    border: 0px solid blue;
+    position: absolute;
+    left: 10px;
+    text-align: justify;
+    bottom: 27%;
+}
+
+.sub03_cont01_text > h1 {
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Bold;
+    font-size: 26px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+    line-height: 1.4;
+}
+
+.sub03_cont01_text > p {
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+    line-height: 2;
+}
+
+
+
+/** --- Sub03_cont02 CSS ---**/
+
+.sub03_cont02{
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    position: relative;
+}
+
+.sub03_cont02_bg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    border: 0px solid blue;
+}
+
+.sub03_cont02_imgbox{
+    border: 0px solid blue;
+    width: 70%;
+    height: 80%;
+    background-image: url('../img/sub03_cont02_img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    left: 16%;
+}
+
+
+
+/* --- Sub04 CSS --- */
+/** --- Sub04_top CSS ---**/
+
+.sub04_top{
+    width: 100%;
+    height: 1080px;
+    border: 0px solid red;
+    position: relative;
+    background-image: url('../img/topbg.png');
+    background-size: cover;
+}
+
+.sub_bg{
+    width: 100%;
+    height: 1200px;
+    object-fit: cover;
+    position: absolute;
+    border: 0px solid blue;
+    bottom: 5%;
+}
+
+.sub04_tit{
+    position: absolute;   
+    right: 0; 
+    top: 15%;
+}
+
+.sub04_top_text{
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 58%;
+    text-align: right;
+}
+
+.sub04_top_text > p{
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Normal;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    line-height: 2;
+}
+
+
+
+/** --- Sub04_cont01 CSS ---**/
+
+.sub04_cont01{
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    position: relative;
+}
+
+.sub04_cont01_tit{
+    position: absolute;
+    top: 8%;
+    border: 0px solid blue;
+}
+
+.sub04_cont01_img{
+    top: 30%;
+    position: absolute;
+    opacity: 50%;
+    border: 0px solid blue;
+}
+
+.sub04_cont01_work{
+    position: absolute;
+    right: 70px;
+    bottom: 20%;
+    border: 0px solid blue;
+}
+
+.color_box_sub04{
+    width: 135px;
+    height: auto;
+    position: absolute;
+    display: flex;
+    border: 0px solid blue;
+    bottom: 15%;
+    left: 10px;
+    justify-content: space-between;
+}
+
+.color_box_sub04 > li > img{
+    width: 40px;
+    height: 40px;
+    border: 0px solid yellow;
+}
+
+.sub04_cont01_text{
+    width: 35%;
+    height: auto;
+    color: #ffffff;
+    border: 0px solid blue;
+    position: absolute;
+    left: 10px;
+    text-align: justify;
+    bottom: 27%;
+}
+
+.sub04_cont01_text > h1 {
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: Bold;
+    font-size: 26px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+    line-height: 1.4;
+}
+
+.sub04_cont01_text > p {
+    font-family: source-han-sans-cjk-ko, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: -0.025em;
+    line-height: 2;
+}
+
+
+
+/** --- Sub04_cont02 CSS ---**/
+
+.sub04_cont02{
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    position: relative;
+}
+
+.sub04_cont02_bg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    border: 0px solid blue;
+}
+
+.sub04_cont02_mockup{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    display: flex;
+    border: 0px solid blue;
+    top: 50px;
+    margin: 0 auto;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.sub04_cont02_mockup > li{
+    width: 30%;
+    height: 100%;
+    border: 0px solid blue;
+    object-fit: cover;
+}
+
+.mockup01{
+    background-image: url('../img/sub04_cont02_img1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mockup02{
+    background-image: url('../img/sub04_cont02_img2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mockup03{
+    background-image: url('../img/sub04_cont02_img3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
